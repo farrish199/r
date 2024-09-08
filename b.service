@@ -3,12 +3,12 @@ Description=Telegram Bot Service
 After=network.target
 
 [Service]
-ExecStart=/path/to/your/telegram-bot/main.sh
-WorkingDirectory=/path/to/your/telegram-bot/
+ExecStart=/root/b/main.sh
+WorkingDirectory=/root/b/
 Restart=always
-User=your-username
+User=abgomey
 Group=your-group
-Environment=TELEGRAM_BOT_TOKEN=your-bot-token
+Environment=TELEGRAM_BOT_TOKEN=7483230333:AAG04p0WSD7n3B9doqfgMVfPpBxgj1JQ8s4
 
 [Install]
 WantedBy=multi-user.target
