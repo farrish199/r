@@ -3,8 +3,8 @@ Description=Telegram Bot Service
 After=network.target
 
 [Service]
-ExecStart=/root/r/bot.sh
-WorkingDirectory=/root/r/
+ExecStart=/root/rr/bot.sh
+WorkingDirectory=/root/rr/
 Restart=always
 User=abgomey
 Group=your-group
